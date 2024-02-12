@@ -10,5 +10,6 @@ By open-sourcing Grapevine, I aim to:
 
 - Finally put out the code that I've been sitting on for two years.
 - Provide a resource for students looking to build a similar app.
+- Help you avoid tarpit ideas like this one. Here's a YC video on [tarpit ideas](https://www.youtube.com/watch?v=GMIawSAygO4).
 
 If you want to contact me about it or have any questions, feel free to reach out to me on twitter at [@mahendrakerr](https://twitter.com/mahendrakerr).
