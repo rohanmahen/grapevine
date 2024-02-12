@@ -1,0 +1,70 @@
+name: grapevine_app
+description: Grapevine app for iOS/Android.
+
+version: 1.1.2+12
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.2.0
+  firebase_auth: ^4.1.2
+  firebase_messaging: ^14.1.0
+  cloud_functions: ^4.0.5
+  cloud_firestore: ^4.0.5
+  provider: ^6.0.2
+  flutter_svg: ^1.1.4
+  datetime_picker_formfield: ^2.0.0
+  flutter_slidable: ^1.3.0
+  mixpanel_flutter: ^1.6.0
+  connectivity_plus: ^2.3.6+1
+  cupertino_icons: ^1.0.2
+  introduction_screen: ^3.0.2
+
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.10.0
+ 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.jpg"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logo.svg
+    - assets/logo_icon.svg
+    - assets/homeIcon.svg
+    - assets/circlesIcon.svg
+    - assets/userIcon.svg
+    - assets/calendarIcon.svg
+    - assets/homeIconSelected.svg
+    - assets/circlesIconSelected.svg
+    - assets/userIconSelected.svg
+    - assets/calendarIconSelected.svg
+    - assets/grapevine.svg
+    - assets/createCircle.svg
+    - assets/createEventIcon.svg
+    - assets/whosin.svg
+    - assets/icon.jpg
+
+ 
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: fonts/Satoshi-Regular.otf
+          weight: 400
+        - asset: fonts/Satoshi-Light.otf
+          weight: 300
+        - asset: fonts/Satoshi-Medium.otf
+          weight: 500
+        - asset: fonts/Satoshi-Bold.otf
+          weight: 800
